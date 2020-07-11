@@ -1,16 +1,21 @@
-html {
-    box-sizing: border-box;
-    cursor: pointer;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
 .hero {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
     padding: 74px 16px 88px;
+    position: relative;
+    >canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    >div {
+        position: relative;
+        z-index: 2;
+    }
     @media (min-width: $tablet) {
         max-width: 768px;
         margin: 0 auto;
@@ -39,7 +44,6 @@ html {
         @media(min-width: $desktop) {
             max-width: 786px;
             margin: 0 auto;
-            position: relative;
         }
     }
     &__heading {
