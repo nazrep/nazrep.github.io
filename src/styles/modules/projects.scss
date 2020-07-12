@@ -50,8 +50,10 @@
     }
     &__content {
         padding: 24px 16px;
+        text-align: left;
         @media(min-width: $desktop) {
             padding: 24px 48px 82px;
+            margin: 0;
         }
     }
     &__window {
@@ -65,6 +67,7 @@
         font-size: 13px;
         line-height: 24px;
         font-weight: normal;
+        margin-top: 24px;
         @media(min-width: $desktop) {
             font-size: 16px;
             line-height: 24px;
@@ -72,20 +75,11 @@
     }
     &__grid {
         display: grid;
-        grid-template-columns: 102px 1fr;
         column-gap: 8px;
+        margin: 0 0 8px 0;
+        grid-template-columns: 102px 1fr;
         @media(min-width: $desktop) {
             grid-template-columns: 116px 1fr;
-        }
-        &__label {
-            display: block;
-            text-align: right;
-            &__name {
-                color: #fff;
-            }
-        }
-        &__link {
-            color: $blue;
         }
     }
 }
@@ -94,7 +88,24 @@
     display: grid;
     column-gap: 24px;
     row-gap: 24px;
+    max-width: 1184px;
+    margin: 0 auto;
     @media(min-width: $tablet) {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+.project {
+    &__label {
+        display: block;
+        text-align: right;
+        color: #808082;
+        font-weight: 400;
+        &__name {
+            color: #fff;
+        }
+    }
+    &__link {
+        color: $blue;
     }
 }

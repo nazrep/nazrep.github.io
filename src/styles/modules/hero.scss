@@ -24,9 +24,31 @@
         max-width: 100%;
     }
     &__bubble {
-        position: absolute;
-        left: calc(50% + 90px);
-        top: -26px;
+        width: 100%;
+        text-align: right;
+        padding: 0 50px;
+        &__link {
+            border-radius: 64px;
+            color: #fff;
+            background-color: $lightBlue;
+            padding: 10px 30px;
+            display: flex;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 1;
+            text-decoration: none;
+            background-color: $lightBlue;
+            color: white;
+            align-items: center;
+            display: inline-flex;
+            justify-content: flex-end;
+            align-content: center;
+            >svg {
+                width: 23px;
+                fill: white;
+                margin-left: 10px;
+            }
+        }
     }
     &__contact {
         border-radius: 64px;
@@ -61,23 +83,24 @@
         display: none;
         @media(min-width: $desktop) {
             display: block;
-            background-color: $blue;
-            color: #fff;
+            background-color: #fff;
+            color: $blue;
             padding: 12px 15px;
             border-radius: 16px;
             font-weight: bold;
-            font-size: 24px;
+            font-size: 20px;
+            cursor: pointer;
         }
     }
     &__image {
         box-sizing: content-box;
         width: 96px;
-        height: 96px;
+        width: 96px;
         border-radius: 50%;
         border: 16px solid #F6F9FD;
         @media(min-width: $desktop) {
             width: 178px;
-            height: 178px;
+            width: 178px;
             border: 24px solid #F6F9FD;
         }
     }
