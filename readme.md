@@ -1,7 +1,5 @@
+![](https://nazrep.github.io/src/og-nazrep.png)
 
-#NAZREP - JUNIOR FRONTEND DEVELOPER
-
-My simple portfolio website.
 
 ##TOOLS
 
