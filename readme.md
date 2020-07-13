@@ -1,4 +1,3 @@
-![cover](https://nazrep.github.io/src/assets/og-nazrep.png)
 
 #NAZREP - JUNIOR FRONTEND DEVELOPER
 
