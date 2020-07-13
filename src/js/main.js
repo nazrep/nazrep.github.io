@@ -1,5 +1,6 @@
 import 'particles.js'
 
+console.log("Hi, I'm Maciek - nice to meet you 🐶")
 // particles-js
 particlesJS('particles-js', {
         "particles": {
