@@ -5,7 +5,7 @@
 
 - WTF Webpack starterkit
 - HTML + CSS + JS
-- Grid
+- Grid, Flexbox
 - Parcel
 
 ## Available scripts
