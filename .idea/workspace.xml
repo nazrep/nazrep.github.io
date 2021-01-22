@@ -51,6 +51,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,7 +66,9 @@
       <workItem from="1597332109873" duration="1071000" />
       <workItem from="1598029258689" duration="228000" />
       <workItem from="1598444357567" duration="301000" />
-      <workItem from="1598444712788" duration="187000" />
+      <workItem from="1598444712788" duration="417000" />
+      <workItem from="1598777936280" duration="1430000" />
+      <workItem from="1603126057638" duration="231000" />
     </task>
     <servers />
   </component>
